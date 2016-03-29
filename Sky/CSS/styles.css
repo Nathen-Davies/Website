@@ -29,7 +29,7 @@ position: absolute;
 top: 0px;
 left:0px;
 text-align: center;
--webkit-animation: start 3s;
+-webkit-animation: start 3s ease-in-out;
 }
 @-webkit-keyframes start{
 0%  {left:0px; top:679.5px;}
@@ -45,7 +45,7 @@ text-align: center;
 -webkit-animation-play-state: paused;
 }
 .content_1:target{
--webkit-animation: one 3s ease-in;
+-webkit-animation: one 3s .1s ease;
 }
 @-webkit-keyframes one{
 0%  {left:1366px; top:-679.5px;}
