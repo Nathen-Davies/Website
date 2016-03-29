@@ -43,6 +43,12 @@ top:0px;
 left:1366px;
 text-align: center;
 }
+.content_1:target{
+-webkit-animation: one 2s;
+}
+@-webkit-keyframes one{
+0%  {left:1366px; top:-679.5px;}
+}
 .button_design{
 border: none;
 padding: 16px 32px;
