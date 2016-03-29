@@ -42,6 +42,13 @@ position: absolute;
 top:0px;
 left:1366px;
 text-align: center;
+-webkit-animation-play-state: paused;
+}
+.content_1:target{
+-webkit-animation: one 3s ease-in;
+}
+@-webkit-keyframes one{
+0%  {left:1366px; top:-679.5px;}
 }
 .button_design{
 border: none;
